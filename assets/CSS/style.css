@@ -1,0 +1,49 @@
+/* reset page */
+@import url('./reset.css');
+
+/* font Raleway import */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root { font-size: 62.5%;}
+
+* {font-family: Raleway;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    height: 2491vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 144.0rem;
+    height: 60.5rem;
+
+    background-image: url(../images/banner.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
