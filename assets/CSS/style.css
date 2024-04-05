@@ -25,11 +25,22 @@ header {
 
     width: 144.0rem;
     height: 60.5rem;
-
-    background-image: url(../images/banner.png);
+   
+    background-image: url(../images/banner.png) , linear-gradient(hsla(0, 0%, 0%) , hsla(198, 100%, 8%, 0.966) , hsl(0, 0%, 0%));
     background-size: cover ;
     background-repeat: no-repeat;
     background-position: center ;
+    background-image: ;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26.8rem;
+    height: 26.8rem;
+    background-color: hsla(0, 0%, 0%, 0.2); 
+    border-radius: 50%;   
 }
 
 .banner {
@@ -46,4 +57,31 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.banner h1{
+    font-size: 4.0rem;
+    font-weight: 900;
+    color: #33A8DB
+    ;
+}
+
+.banner-content p{
+    width: 51.0rem;
+    
+
+    font-size: 2.0rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.banner-content button{
+    padding: 1.9rem 9.1rem 1.9rem 9.1rem;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #31A8DD;
+    background:  #00000000;
+    border: 0.2rem;
+    border-color: #3BA1CD ;
+
 }
