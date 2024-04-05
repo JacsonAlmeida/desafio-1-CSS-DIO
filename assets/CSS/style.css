@@ -122,6 +122,11 @@ main {
     align-items: center;
     flex-direction: column;
 
+    background-image: url(../images/woman-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
     width: 144.0rem;
     height: 171.6rem;
 }
@@ -183,6 +188,7 @@ main {
     border-radius: 3rem;
     background-color: 
     #252525;
+    box-shadow: inset -0.2rem 0.6rem 0.4rem hsla(0, 0%, 0%, 0.4);
     
     font-size: 1.6rem;
     color: #FFFFFF;
@@ -219,6 +225,8 @@ main {
     color: #FFFFFF;
     text-align: ;
     text-transform: lowercase;
+    text-shadow: 0.3rem 0.2rem #33A8DB;
+    margin-left: 19.9rem;
 }
 
 #professional-challenges {
@@ -226,6 +234,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    background-color: #000000;
 
     width: 144.0rem;
     height: 82.0rem;
@@ -289,3 +299,5 @@ footer a {
     text-decoration: none;
     color: #33A8DB;
 }
+
+/* Trabalho concluído em 5.4.24, evoluindo 1% ao dia com constância */
