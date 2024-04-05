@@ -66,33 +66,54 @@ header {
 .banner h1{
     font-size: 4.0rem;
     font-weight: 900;
-    color: #33A8DB
-    ;
+    text-transform: uppercase;
+    
     margin-top: 2.1rem;
+
+    background-image: linear-gradient(#33A8DB , #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .banner-content p{
     width: 51.0rem;
+    height: 4.6rem;
     margin-top: 2.2rem;
-    
 
     font-size: 2.0rem;
-    font-weight: 300;
+    font-weight: 400;
     color: #FFFFFF;
+    text-align: justify;
+    
 }
 
 .banner-content button{
 
-    width: 32.6rem;
+    width: 33.6rem;
     height: 5.7rem;
     padding: ;
+
     font-size: 1.6rem;
     font-weight: 900;
     color: #31A8DD;
-    background:  #00000000;
+    text-transform: uppercase;
+    
+    letter-spacing: 0.350rem;
+
+    background: none;
     border: 0.2rem solid;
-    border-color: linear-gradient(#3BA1CD, #1572B7) ;
     white-space: nowrap;
     margin-top: 2.2rem;
+    border-image-source: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
 
+    cursor: pointer;
+}
+
+.banner-content button:hover {
+    background-image: linear-gradient(#3BA1CD, #1572B7);
+    color: #000000;
+    border: 0;
+    transition: 0.8s;
 }
